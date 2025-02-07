@@ -67,13 +67,18 @@ body {
     background: #ffffff;
     border-radius: 40px;
     padding: 10px 20px;
+    transition: transform 0.3s ease;
 }
 
 .dangnhap {
     color: #2aacc0;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 700;
+    transition: transform 0.3s ease;
 }
+
+
+
 
 /* Hero */
 .hero {
@@ -96,7 +101,7 @@ body {
     font-size: 50px;
     font-family: 'Montserrat';
     font-weight: bold;
-    color: #ffffff;
+    color: #f5f1f1;
     position: relative;
     z-index: 999;
 
@@ -119,6 +124,7 @@ body {
     left: -100px;
     animation: maybayphai 100s linear infinite;
     width: 500px;
+    opacity: 0.78;
 
 }
 
@@ -128,13 +134,14 @@ body {
 }
 
 .cummayphai img {
-    width: 500px;
+    width: 400px;
+    opacity: 0.78;
 }
 
 .mayphai {
     position: relative;
     top: -450px;
-    left: 600px;
+    left: 200px;
     animation: maybaytrai 100s linear infinite;
 }
 
