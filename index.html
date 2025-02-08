@@ -33,23 +33,22 @@
     <!-- n/Header -->
 
     <!-- Hero -->
-
-
+    
+    
     <section class="hero">
-
+    
         <div class="hero_content">
             <div class="cau1">Hế lu, chúc bạn một ngày tốt lành!</div>
             <div class="cau2">Ngày hôm nay bạn đã làm được gì rồi?</div>
-            <div class="tag">-Meopo</div>
-        <div class="hero_btn">
-            <div class="hero_btn_content">Hôm nay, mình đã ...</div>
+            <div class="tag">-Meopo-</div>
+            <div class="hero_btn">
+                <div class="hero_btn_content">Hôm nay, mình đã ...</div>
+            </div>
+    
         </div>
-        
-        </div>
-
 
     </section>
-
+    
     <div class="cummay">
         <img class="maytrai" src="./Asset/img/hero_may_trai.svg" alt="Mây" />
         <div class="cummayphai">
@@ -57,9 +56,49 @@
             <img class="mayphai2" src="./Asset/img/hero_may_phai2.svg" alt="Mây" />
         </div>
     </div>
-
-
     <!-- n/Hero -->
+
+    <!-- Về mình -->
+<section class="Veminh">
+    <div class="veminh-tieude">
+        TÍ XÍU VỀ MÌNH
+    </div>
+    <div class="veminh-container">
+        <img class="ava" src="./Asset/img/avatar.svg" alt="ava"/>
+        <div class="veminh-mota">
+            <div class="mota1">Ayyo, mình là <span class="meopo">Meopo</span>. <br>
+                Tên mình là sự kết hợp giữa Mèo Péo và Bingo.</div>
+            <div class="mota2">Mình sinh ra với vai trò là người giữ lửa cho các mục tiêu mà bạn mong muốn và cố gắng đạt được trong năm 2025 này.</div>
+        </div> 
+    </div>
+</section>
+    <!-- n/Về mình -->
+     <!-- Thể lệ -->
+     <div class="thele-container">
+        <div class="thele-header">HADILAO</div>
+        <div class="thele-grid">
+          <div class="item red">Chạy 20km<br>10pt</div>
+          <div class="item">Có bằng lái xe<br>25pt</div>
+          <div class="item">Đạt được học bổng<br>30pt</div>
+          <div class="item">Đọc 10 quyển sách<br>15pt</div>
+          <div class="item green">Có bạn gái<br>10pt</div>
+          <div class="item">Vòng eo 40<br>25pt</div>
+          <div class="item red">Hết mụn<br>15pt</div>
+          <div class="item green">Cắm trại qua<br> đêm ở biển<br>15pt</div>
+          <div class="item">Ăn uống lành mạnh<br>15pt</div>
+        </div>
+        <div class="thele-footer">GOAL: x / 160pt</div>
+      </div>
+      <script>
+        document.querySelectorAll('.item').forEach((item) => {
+          const randomDuration = Math.random() * 2 +1; // Duration từ 1s đến 3s
+          const randomDelay = Math.random() * 4; // Delay từ 0s đến 2s
+    
+          item.style.animation = `random-scale ${randomDuration}s ease-in-out ${randomDelay}s infinite`;
+        });
+      </script>
+      
+     <!-- n/Thể lệ -->
 </body>
 
 </html>
