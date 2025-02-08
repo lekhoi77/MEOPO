@@ -8,6 +8,7 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    height: auto;
 
 
 }
@@ -35,17 +36,18 @@ body {
     width: 80%;
 }
 
-.logo {
+.hd-logo {
     position: relative;
     margin-right: 40px;
     top: -10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.logo:hover {
+
+.hd-logo:hover {
     transform: scale(1.1);
     /* Phóng to */
-    
+
     /* Đổ bóng */
 }
 
@@ -66,11 +68,13 @@ body {
 .dashboard:hover,
 .taichinh:hover,
 .veminh:hover {
-    
-    font-size: 22px; /* Tăng kích thước chữ khi hover */
-    font-weight: 1000; /* Đậm hơn khi hover */
+
+    font-size: 22px;
+    /* Tăng kích thước chữ khi hover */
+    font-weight: 1000;
+    /* Đậm hơn khi hover */
     cursor: pointer;
-    
+
 }
 
 
@@ -201,6 +205,7 @@ body {
         /* Di chuyển qua toàn màn hình */
     }
 }
+
 @keyframes maybaytrai {
     0% {
         transform: translateX(0);
@@ -210,26 +215,28 @@ body {
         transform: translateX(-110vw);
     }
 }
+
 /* Hero */
 
 /* Về mình */
-.Veminh{
-font-weight: bold;
-font-family: 'Montserrat';
-display:  flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 60px;
+.Veminh {
+    font-weight: bold;
+    font-family: 'Montserrat';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
 
 
 }
+
 .veminh-tieude {
-   font-size: 40px;
-   color: #f5f1f1;
+    font-size: 40px;
+    color: #f5f1f1;
 }
 
-.veminh-container{
+.veminh-container {
     display: flex;
     margin: 0px 150px;
     gap: 50px;
@@ -238,46 +245,53 @@ gap: 60px;
     border-radius: 20px;
     border: 4px solid black;
 }
-.veminh-mota{
+
+.veminh-mota {
     position: relative;
     top: 25px;
     font-size: 35px;
     width: 700px;
-    color:#2aacc0;
+    color: #2aacc0;
 }
-.meopo{
+
+.meopo {
     color: #1c7988;
 }
+
 /* n/Về mình */
 /* Thể lệ */
 
-.thele-container{
+.thele-container {
     width: 550px;
     margin: 70px 120px;
 }
+
 .thele-header {
     font-family: 'Montserrat', sans-serif;
-   background-color: #ffffff;
-   color: #00a651;
-   font-weight: bold;
-   font-size: 22px;
-   padding: 30px;
-   width: auto;
-   border-radius: 10px;
-   margin-bottom: 10px;
-   text-align: center;
-   border: 4px solid #00a651;
-   margin-bottom: 20px;
-   transition: all 0.4s ease-in-out;
- }
- .thele-header:hover{
+    background-color: #ffffff;
+    color: #00a651;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 30px;
+    width: auto;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    border: 4px solid #00a651;
+    margin-bottom: 20px;
+    transition: all 0.4s ease-in-out;
+}
+
+.thele-header:hover {
     background-color: #00a651;
     color: #ffffff;
     font-size: 25px;
- }
+}
+
 .thele-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Chia đều 3 cột */
+    grid-template-columns: repeat(3, 1fr);
+    /* Chia đều 3 cột */
     gap: 10px;
 }
 
@@ -295,46 +309,348 @@ gap: 60px;
     justify-content: center;
     text-align: center;
     transition: transform 0.3s ease-in-out;
-   
-  }
 
-  .item.red {
-    background-color:rgb(181, 9, 9) ;
+}
+
+.item.red {
+    background-color: rgb(181, 9, 9);
     color: rgb(255, 255, 255);
-    border: 2px solid rgb(62, 17, 17);
+    border: 2px solid rgb(216, 77, 77);
     box-shadow: 0 4px 8px rgba(216, 77, 77, 0.5);
-  }
+}
 
-  .item.green {
+.item.green {
     background-color: #00a651;
     color: #ffffff;
-    border: 2px solid #1a7345;
+    border: 2px solid #71e1a7;
     box-shadow: 0 4px 8px #00a651BF;
-  }
+}
 
-  @keyframes random-scale {
-    0% { transform: scale(1.); }
-    50% { transform: scale(1.03); }
-    100% { transform: scale(1); }
-  }
+@keyframes random-scale {
+    0% {
+        transform: scale(1.);
+    }
+
+    50% {
+        transform: scale(1.03);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
 .thele-footer {
     background-color: #ffffff;
     color: #2aacc0;
     padding: 30px;
     margin-top: 10px;
-    border-radius: 10px;
+    border-radius: 30px;
     font-weight: bold;
     text-align: center;
     font-size: 22px;
     border: 4px solid #2aacc0;
     margin-top: 20px;
     transition: all 0.4s ease-in-out;
-  }
-  .thele-footer:hover{
-    background-color:#2aacc0 ;
+}
+
+.thele-footer:hover {
+    background-color: #2aacc0;
     color: #ffffff;
     font-size: 25px;
-  }
+}
 
-  
 /* n/Thể lệ */
+/* Nhiệm vụ và tính điểm */
+/* Nhiệm vụ section */
+.container-tong {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 30px;
+}
+
+.container-phai {
+    margin-top: 60px;
+    width: 550px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.nv-badge {
+    background-color: #ffffff;
+    color: #b7ce41;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 20px 10px;
+    width: 300px;
+    border-radius: 30px;
+    margin-top: 20px;
+    text-align: center;
+    border: 4px solid #b7ce41;
+    margin-bottom: 20px;
+    position: relative;
+    left: 80px;
+    transition: all 0.4s ease-in-out;
+}
+
+.td-badge {
+    background-color: #ffffff;
+    color: #b7ce41;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 20px 10px;
+    width: 300px;
+    border-radius: 30px;
+    margin-top: 20px;
+    text-align: center;
+    border: 4px solid #b7ce41;
+    margin-bottom: 20px;
+    position: relative;
+    left: 80px;
+    transition: all 0.4s ease-in-out;
+
+}
+
+/*n/Nhiệm vụ và tính điểm */
+
+
+
+
+.custom-shape-divider-bottom-1739004864 {
+    position: relative;
+    top: 10px;
+}
+
+.custom-shape-divider-bottom-1739004864 .shape-fill {
+    fill: #ffffff;
+}
+
+.footer {
+    background-color: #ffffff;
+    height: 392px;
+    position: relative;
+   overflow: hidden;
+}
+
+.ft-tag {
+    color: #000000;
+    text-align: left;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    left: 623px;
+    top: 325px;
+}
+
+.ft-content {
+    display: flex;
+    flex-direction: row;
+    gap: 149px;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    left: 122px;
+    top: 36px;
+}
+
+.ft-logo {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 223px;
+    position: relative;
+}
+
+.logo {
+    width: 200px;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: auto;
+    position: relative;
+    object-fit: cover;
+    left: 25px;
+}
+
+.meopo-2025 {
+    color: #000000;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    align-self: stretch;
+}
+
+.lienhe {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 251px;
+    position: relative;
+}
+
+.khung-lh {
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.lh-title {
+    color: #000000;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 25px;
+    font-weight: 700;
+    position: relative;
+    align-self: stretch;
+}
+
+.ft-khung-lien-he {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    gap: 17px;
+}
+
+.gmail-logo {
+    flex-shrink: 0;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    object-fit: cover;
+}
+
+.vxkhoi-gmail-com {
+    color: #000000;
+    text-align: left;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;}
+
+
+.linkedin {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    gap: 17px;
+}
+
+.linked-in {
+    flex-shrink: 0;
+    width: 30px;
+    height: 32px;
+    position: relative;
+    object-fit: cover;
+}
+
+.linked-com-vxlkhoi {
+    color: #000000;
+    text-align: left;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+   
+}
+
+.insta {
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.instagram {
+    flex-shrink: 0;
+    width: 30px;
+    height: 34px;
+    position: relative;
+    object-fit: cover;
+}
+
+.whyde-e-4-rth {
+    color: #000000;
+    text-align: left;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+}
+
+.thongtin {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 453px;
+    position: relative;
+}
+
+.khung-tt {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    top:-20px;
+}
+
+.tt-title {
+    color: #000000;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 25px;
+    font-weight: 700;
+    position: relative;
+    align-self: stretch;
+}
+
+.tt-content {
+    color: #000000;
+    text-align: left;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+}

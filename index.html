@@ -19,7 +19,7 @@
     <!-- Header -->
     <section class="header">
         <div class="nav">
-            <img class="logo" src="./Asset/img/logo.svg" alt="Logo" />
+            <img class="hd-logo" src="./Asset/img/logo.svg" alt="Logo" />
             <div class="pagination">
                 <div class="dashboard"> DASHBOARD </div>
                 <div class="taichinh"> TÀI CHÍNH </div>
@@ -33,10 +33,10 @@
     <!-- n/Header -->
 
     <!-- Hero -->
-    
-    
+
+
     <section class="hero">
-    
+
         <div class="hero_content">
             <div class="cau1">Hế lu, chúc bạn một ngày tốt lành!</div>
             <div class="cau2">Ngày hôm nay bạn đã làm được gì rồi?</div>
@@ -44,11 +44,11 @@
             <div class="hero_btn">
                 <div class="hero_btn_content">Hôm nay, mình đã ...</div>
             </div>
-    
+
         </div>
 
     </section>
-    
+
     <div class="cummay">
         <img class="maytrai" src="./Asset/img/hero_may_trai.svg" alt="Mây" />
         <div class="cummayphai">
@@ -59,46 +59,122 @@
     <!-- n/Hero -->
 
     <!-- Về mình -->
-<section class="Veminh">
-    <div class="veminh-tieude">
-        TÍ XÍU VỀ MÌNH
-    </div>
-    <div class="veminh-container">
-        <img class="ava" src="./Asset/img/avatar.svg" alt="ava"/>
-        <div class="veminh-mota">
-            <div class="mota1">Ayyo, mình là <span class="meopo">Meopo</span>. <br>
-                Tên mình là sự kết hợp giữa Mèo Péo và Bingo.</div>
-            <div class="mota2">Mình sinh ra với vai trò là người giữ lửa cho các mục tiêu mà bạn mong muốn và cố gắng đạt được trong năm 2025 này.</div>
-        </div> 
-    </div>
-</section>
-    <!-- n/Về mình -->
-     <!-- Thể lệ -->
-     <div class="thele-container">
-        <div class="thele-header">HADILAO</div>
-        <div class="thele-grid">
-          <div class="item red">Chạy 20km<br>10pt</div>
-          <div class="item">Có bằng lái xe<br>25pt</div>
-          <div class="item">Đạt được học bổng<br>30pt</div>
-          <div class="item">Đọc 10 quyển sách<br>15pt</div>
-          <div class="item green">Có bạn gái<br>10pt</div>
-          <div class="item">Vòng eo 40<br>25pt</div>
-          <div class="item red">Hết mụn<br>15pt</div>
-          <div class="item green">Cắm trại qua<br> đêm ở biển<br>15pt</div>
-          <div class="item">Ăn uống lành mạnh<br>15pt</div>
+    <section class="Veminh">
+        <div class="veminh-tieude">
+            TÍ XÍU VỀ MÌNH
         </div>
-        <div class="thele-footer">GOAL: x / 160pt</div>
-      </div>
-      <script>
-        document.querySelectorAll('.item').forEach((item) => {
-          const randomDuration = Math.random() * 2 +1; // Duration từ 1s đến 3s
-          const randomDelay = Math.random() * 4; // Delay từ 0s đến 2s
+        <div class="veminh-container">
+            <img class="ava" src="./Asset/img/avatar.svg" alt="ava" />
+            <div class="veminh-mota">
+                <div class="mota1">Ayyo, mình là <span class="meopo">Meopo</span>. <br>
+                    Tên mình là sự kết hợp giữa Mèo Péo và Bingo.</div>
+                <div class="mota2">Mình sinh ra với vai trò là người giữ lửa cho các mục tiêu mà bạn mong muốn và cố
+                    gắng đạt được trong năm 2025 này.</div>
+            </div>
+        </div>
+    </section>
+    <!-- n/Về mình -->
     
-          item.style.animation = `random-scale ${randomDuration}s ease-in-out ${randomDelay}s infinite`;
-        });
-      </script>
-      
-     <!-- n/Thể lệ -->
-</body>
+    <div class="container-tong">
+        <!-- Thể lệ -->
+        <div class="thele-container">
+            <div class="thele-header">HADILAO</div>
+            <div class="thele-grid">
+                <div class="item red">Chạy 20km<br>10pt</div>
+                <div class="item">Có bằng lái xe<br>25pt</div>
+                <div class="item">Đạt được học bổng<br>30pt</div>
+                <div class="item">Đọc 10 quyển sách<br>15pt</div>
+                <div class="item green">Có bạn gái<br>10pt</div>
+                <div class="item">Vòng eo 40<br>25pt</div>
+                <div class="item red">Hết mụn<br>15pt</div>
+                <div class="item green">Cắm trại qua<br> đêm ở biển<br>15pt</div>
+                <div class="item">Ăn uống lành mạnh<br>15pt</div>
+            </div>
+            <div class="thele-footer">GOAL: x / 160pt</div>
+        </div>
+        <!-- n/Thể lệ -->
+        <!-- Nhiệm vụ và Tính điểm -->
+        <div class="container-phai">
+            <!-- Nhiệm vụ section -->
+            <div class="nv-container">
+                <div class="nv-badge">Nhiệm vụ</div>
+                <div class="nv-content">
+                    <div class="nv-doan1">Bạn sẽ có nhiệm vụ điền mục tiêu của mình vào từng ô trên.<br><br>Số điểm của mỗi
+                        ô sẽ là do bạn thiết lập.</div> <br>
+                    <div class="nv-doan2">Ô ngang trên cùng của template sẽ là phần thưởng cuối cùng bạn muốn được nhận
+                        khi đã fill xong ô ngang ở dưới cùng bằng cách hoàn thành các ô mục tiêu nhỏ</div>
+                </div>
+            </div>
+            <!--n/Nhiệm vụ section -->
+            <!-- Tính điểm section -->
+            <div class="td-container">
+                <div class="td-badge">Tính điểm</div>
+                <div class="td-content">
+                    <div class="td-doan1">
+                        Mỗi khi hoàn thành được một ô mục tiêu, điểm sẽ được cập nhật ở ô ngang bên dưới.
+                    </div><br>
+                    <div class="td-doan2">
+                        Có những mục tiêu sẽ được kết hợp với nhau thành combo, hoàn thành combo sẽ được phần thưởng phụ
+                    </div><br>
+                    <div class="td-doan3">
+                        Tối thiểu sẽ có 20% mục tiêu phải được set deadline, nếu không hoàn thành trước deadline thì bạn
+                        sẽ bị
+                        trừ gấp đôi số điểm ô đó
+                    </div><br>
+                </div>
+            </div>
+            <!--n/Tính điểm section -->
+        </div>
+        <!--n/Nhiệm vụ và Tính điểm -->
+    </div>
+  
+    <div class="custom-shape-divider-bottom-1739004864">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+        </svg>
+    </div>
+    <div class="footer">
+        <div class="ft-tag"> Designed by Khoi Vo </div>
+        <div class="ft-content">
+            <div class="ft-logo">
+                <img class="logo" src="./Asset/img/logo.png" />
+                <div class="meopo-2025"> MEOPO 2025 </div>
+            </div>
+            <div class="lienhe">
+                <div class="khung-lh">
+                    <div class="lh-title"> Liên hệ </div>
+                    <div class="ft-khung-lien-he">
+                        <div class="email">
+                            <img class="gmail-logo" src="./Asset/img/Gmail Logo.png" />
+                            <div class="vxkhoi-gmail-com"> vxkhoi@gmail.com </div>
+                        </div>
+                        <div class="linkedin">
+                            <img class="linked-in" src="./Asset/img/LinkedIn.png" />
+                            <div class="linked-com-vxlkhoi"> linked.com/vxlkhoi </div>
+                        </div>
+                        <div class="insta">
+                            <img class="instagram" src="./Asset/img/Instagram.png" />
+                            <div class="whyde-e-4-rth"> @whyde.e4rth </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="thongtin">
+                <div class="khung-tt">
+                    <div class="tt-title"> Thông tin </div>
+                    <div class="tt-content"> Website này là website phi lợi nhuận<br />được tạo ra nhằm mục đích hỗ trợ việc kiểm<br />soát các mục tiêu trong cuộc sống.<br />Xin vui lòng không thương mại hoá website </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
+</body>
+<script>
+    document.querySelectorAll('.item').forEach((item) => {
+        const randomDuration = Math.random() * 2 + 1; // Duration từ 1s đến 3s
+        const randomDelay = Math.random() * 4; // Delay từ 0s đến 2s
+
+        item.style.animation = `random-scale ${randomDuration}s ease-in-out ${randomDelay}s infinite`;
+    });
+</script>
 </html>
