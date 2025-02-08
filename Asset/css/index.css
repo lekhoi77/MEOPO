@@ -447,7 +447,7 @@ body {
 .ft-content {
     display: flex;
     flex-direction: row;
-    gap: 149px;
+    gap: 200px;
     align-items: center;
     justify-content: flex-start;
     position: absolute;
