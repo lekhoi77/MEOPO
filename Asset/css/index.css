@@ -611,6 +611,10 @@ body {
     font-size: 20px;
     font-weight: 700;
     position: relative;
+    text-decoration: none;
+}
+.lienhe a{
+    text-decoration: none;
 }
 
 .thongtin {
@@ -653,4 +657,7 @@ body {
     font-size: 20px;
     font-weight: 700;
     position: relative;
+}
+.desktop-1{
+    display: none;
 }
