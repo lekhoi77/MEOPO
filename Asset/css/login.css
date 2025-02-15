@@ -29,8 +29,8 @@ body{
     justify-content: center;
     overflow: visible;
     margin: 40px 40px;
-    width: 1110px;
-    height: 720px;
+    width: 1090px;
+    height: 700px;
 }
 
 .login-thumb {
@@ -115,27 +115,27 @@ body{
 .noacc-signup {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
-    position: absolute;
-    left: 86px;
-    top: 563px;
     width: 270px;
+    position: relative;
+    top: 200px;
 }
 
 .noacc-signup-span {
     color: #267d89;
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+   
     font-weight: 400;
 }
 
 .noacc-signup-span2 {
     color: #185058;
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
+    font-weight: 500;
     text-decoration: underline;
+    position: relative;
+    left: 5px
 }
 
 .login-email-line {
@@ -248,8 +248,8 @@ body{
     justify-content: center;
     overflow: visible;
     margin: 40px 40px;
-    width: 1110px;
-    height: 720px;
+    width: 1090px;
+    height: 700px;
     
 }
 
@@ -370,8 +370,10 @@ body{
     color: #185058;
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 500;
     text-decoration: underline;
+    position: relative;
+    left: 5px;
 }
 
 .signup-lastname {
