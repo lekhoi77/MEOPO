@@ -239,6 +239,7 @@ body{
 /* Đăng kí */
 
 .signup-big-container {
+   
     background: #f8f1f1;
     border-radius: 30px;
     display: flex;
@@ -250,6 +251,7 @@ body{
     margin: 40px 40px;
     width: 1090px;
     height: 700px;
+    display: none;
     
 }
 

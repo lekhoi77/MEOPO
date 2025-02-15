@@ -92,7 +92,17 @@
             </div>
             <!--n/Đăng kí -->
         </div>
+        <script>
+            document.querySelector('.noacc-signup-span2').addEventListener('click', function () {
+                document.querySelector('.login-big-container').style.display = 'none';
+                document.querySelector('.signup-big-container').style.display = 'flex';
+            });
     
+            document.querySelector('.alrgetacc-title-span3').addEventListener('click', function () {
+                document.querySelector('.signup-big-container').style.display = 'none';
+                document.querySelector('.login-big-container').style.display = 'flex';
+            });
+            </script>
 </body>
 
 </html>
