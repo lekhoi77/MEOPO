@@ -1,0 +1,528 @@
+
+body{
+ 
+    background: linear-gradient(180deg, rgba(90, 197, 226, 1.00) 0%, rgba(148, 225, 236, 1.00) 42.39996373653412%, rgba(108, 203, 217, 1.00) 66.13094806671143%);
+   
+}
+.login-and-signup,
+.login-and-signup * {
+    box-sizing: border-box;
+     display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.login-and-signup{
+    display: flex;
+    flex-direction: column;
+}
+/* Đăng nhập*/
+.login-big-container {
+    background: #f8f1f1;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+    align-items: center;
+    justify-content: center;
+    overflow: visible;
+    margin: 40px 40px;
+    width: 1110px;
+    height: 720px;
+}
+
+.login-thumb {
+    flex-shrink: 0;
+    width: 599px;
+    height: 676px;
+    position: relative;
+    object-fit: cover;
+    aspect-ratio: 599/676;
+}
+
+.login-input-container {
+    background: #ffffff;
+    border-radius: 30px;
+    flex-shrink: 0;
+    width: 449px;
+    height: 674px;
+    position: relative;
+    overflow: hidden;
+}
+
+.login-title {
+    color: #267D89;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    position: absolute;
+    left: 133px;
+    top: 122px;
+}
+
+.login-email-title {
+    color: #267d89;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    left: 43px;
+    top: 244px;
+    width: 79px;
+}
+
+.login-action-title {
+    color: #267d89;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    left: 86px;
+    top: 170px;
+    width: 279px;
+}
+
+.forgetpass {
+    color: rgba(38, 125, 137, 0.60);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    font-style: italic;
+    position: absolute;
+    left: 295px;
+    top: 354px;
+    width: 104px;
+}
+
+.login-pass-title {
+    color: #267d89;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    left: 33px;
+    top: 307px;
+    width: 132px;
+}
+
+.noacc-signup {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    left: 86px;
+    top: 563px;
+    width: 270px;
+}
+
+.noacc-signup-span {
+    color: #267d89;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.noacc-signup-span2 {
+    color: #185058;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.login-email-line {
+    background: #267d89;
+    margin-top: -1px;
+    border-style: solid;
+    border-color: #31a1b1;
+    border-width: 1px 0 0 0;
+    width: 330px;
+    height: 0px;
+    position: absolute;
+    left: 59.5px;
+    top: 281.5px;
+    overflow: visible;
+}
+
+.login-pass-line {
+    background: #267d89;
+    margin-top: -1px;
+    border-style: solid;
+    border-color: #31a1b1;
+    border-width: 1px 0 0 0;
+    width: 330px;
+    height: 0px;
+    position: absolute;
+    left: 60px;
+    top: 345px;
+}
+
+.login-eye-icon {
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    left: 369px;
+    top: 309px;
+    object-fit: cover;
+}
+
+.login-btn {
+    background: #267d89;
+    border-radius: 30px;
+    padding: 11px 102px 11px 102px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 289px;
+    height: 39px;
+    position: absolute;
+    left: 76px;
+    top: 403px;
+}
+
+.login-btn-title {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+}
+
+.gglogin-btn {
+    background: #f1f1f1;
+    border-radius: 30px;
+    padding: 7px 44px 7px 44px;
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 289px;
+    height: 39px;
+    position: absolute;
+    left: 76px;
+    top: 460px;
+}
+
+.gglogin-icon {
+    flex-shrink: 0;
+    width: 32px;
+    height: 21px;
+    position: relative;
+    object-fit: cover;
+}
+
+.gglogin-title {
+    color: #267d89;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+    width: 164px;
+    height: 21px;
+}
+/* n/Đăng nhập*/
+
+
+/* Đăng kí */
+
+.signup-big-container {
+    background: #f8f1f1;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+    align-items: center;
+    justify-content: center;
+    overflow: visible;
+    margin: 40px 40px;
+    width: 1110px;
+    height: 720px;
+    
+}
+
+.signup-thumb {
+    flex-shrink: 0;
+    width: 599px;
+    height: 676px;
+    position: relative;
+    object-fit: cover;
+    aspect-ratio: 599/676;
+}
+
+.signup-input-container {
+    background: #ffffff;
+    border-radius: 30px;
+    flex-shrink: 0;
+    width: 449px;
+    height: 676px;
+    position: relative;
+    overflow: hidden;
+}
+
+.signup-input-container2 {
+    background: #ffffff;
+    border-radius: 30px;
+    width: 448px;
+    height: 676px;
+    position: absolute;
+    left: 1px;
+    top: 0px;
+}
+
+.signup-name {
+    color: #267d89;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    left: 50px;
+    top: 179px;
+}
+
+.signup-mail {
+    color: #267d89;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    left: 52px;
+    top: 273px;
+}
+
+.signup-pass {
+    color: #267d89;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    left: 50px;
+    top: 374px;
+}
+
+.terms {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    left: px;
+    top: 455px;
+}
+
+.terms-span {
+    color: #267d89;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+   
+}
+
+.terms-span2 {
+    color: #0f2d31;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;position:relative ;
+    left: 5px;
+    
+}
+
+.alrgetacc-title {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    left: 141px;
+    top: 610px;
+}
+
+.alrgetacc-title-span {
+    color: #267d89;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.alrgetacc-title-span2 {
+    color: #185058;
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.alrgetacc-title-span3 {
+    color: #185058;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.signup-lastname {
+    color: #267d89;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    left: 237px;
+    top: 179px;
+}
+
+.signup-title {
+    color: #267d89;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    left: 67px;
+    top: 81px;
+}
+
+.signup-action-title {
+    color: #267d89;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    left: 127px;
+    top: 127px;
+}
+
+.signup-email-line {
+    background: #267d89;
+    margin-top: -1px;
+    border-style: solid;
+    border-color: #267d89;
+    border-width: 1px 0 0 0;
+    width: 336px;
+    height: 0px;
+    position: absolute;
+    left: 53px;
+    top: 335px;
+}
+
+.signup-name-line {
+    background: #267d89;
+    margin-top: -1px;
+    border-style: solid;
+    border-color: #267d89;
+    border-width: 1px 0 0 0;
+    width: 151px;
+    height: 0px;
+    position: absolute;
+    left: 50px;
+    top: 239px;
+}
+
+.signup-lastname-line {
+    background: #267d89;
+    margin-top: -1px;
+    border-style: solid;
+    border-color: #267d89;
+    border-width: 1px 0 0 0;
+    width: 151px;
+    height: 0px;
+    position: absolute;
+    left: 237px;
+    top: 239px;
+}
+
+.signup-pass-line {
+    background: #267d89;
+    margin-top: -1px;
+    border-style: solid;
+    border-color: #267d89;
+    border-width: 1px 0 0 0;
+    width: 336px;
+    height: 0px;
+    position: absolute;
+    left: 52px;
+    top: 431px;
+}
+
+
+.checked-checkbox{
+    width: 20px;
+    height: 18px;
+    position: relative;
+    left:-5px;
+    z-index: 999;
+}
+.signup-btn {
+    background: #267d89;
+    border-radius: 30px;
+    padding: 9px 127px 9px 127px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 332px;
+    height: 39px;
+    position: absolute;
+    left: 55px;
+    top: 489px;
+}
+
+.signup-btn-title {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+}
+
+.ggsignup-btn {
+    background: #f1f1f1;
+    border-radius: 30px;
+    padding: 9px 127px 9px 127px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 332px;
+    height: 39px;
+    position: absolute;
+    left: 55px;
+    top: 544px;
+}
+
+.gg-icon {
+    flex-shrink: 0;
+    width: 32px;
+    height: 21px;
+    position: relative;
+    object-fit: cover;
+}
+
+.ggsignup-title {
+    color: #267d89;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+    text-wrap: nowrap;
+}
+/* n/Đăng kí */
