@@ -3,7 +3,7 @@ section {
 }
 
 body {
-    background-color: #6CC6D4;
+    background: linear-gradient(180deg, rgba(101, 205, 234, 1.00) 0%, rgba(148, 225, 236, 1.00) 42.39996373653412%, rgba(108, 203, 217, 1.00) 66.13094806671143%);
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
@@ -378,10 +378,17 @@ body {
 /* Nhiệm vụ section */
 .container-tong {
     display: flex;
+    flex-wrap: wrap;
+    /* Đảm bảo hiển thị tốt trên các màn hình nhỏ */
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    /* Giữ kích thước tối đa nhưng không tràn màn hình */
+    padding: 20px;
+    border-radius: 10px;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 30px;
 }
-
 .container-phai {
     margin-top: 60px;
     width: 550px;
@@ -440,21 +447,29 @@ body {
 }
 
 .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #ffffff;
     height: 392px;
     position: relative;
    overflow: hidden;
+   
 }
 
 .ft-tag {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    text-align: center;
     color: #000000;
-    text-align: left;
     font-family: 'Montserrat';
     font-size: 20px;
     font-weight: 600;
-    position: absolute;
-    left: 623px;
-    top: 325px;
+    margin-top: 50px;
+    ;
+
 }
 
 .ft-content {
@@ -462,10 +477,8 @@ body {
     flex-direction: row;
     gap: 200px;
     align-items: center;
-    justify-content: flex-start;
-    position: absolute;
-    left: 122px;
-    top: 36px;
+    justify-content: center;
+   
 }
 
 .ft-logo {
@@ -674,3 +687,4 @@ body {
 .desktop-1{
     display: none;
 }
+
